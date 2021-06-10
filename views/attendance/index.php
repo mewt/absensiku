@@ -97,7 +97,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 'options' => ['title' => 'Semicolon -  Separated Values'],]
             
             ]
-        ],
+        ]
     );
     ?>
 
