@@ -34,6 +34,17 @@ $this->params['breadcrumbs'][] = $this->title;
         ['class' => 'yii\grid\ActionColumn'],
     ];
 
+    $defaultStyle = [
+        ExportMenu::FORMAT_PDF => [
+            'borders' => [
+                'outline' => [
+                    'borderStyle' => Border::BORDER_NONE,
+                ],
+            ],
+
+        ],
+    ];
+
     $arr = [];
     for($a=1; $a<=10; $a++){
         $arr[] = [
