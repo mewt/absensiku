@@ -20,30 +20,32 @@ $this->title = 'Home';
     <p>
     Hal dibawah ini adalah yang bisa lakukan oleh Admin Sistem Aplikasi Absen Pegawai 
     </p>
-
-<ul class="list-group">
-  <li class="list-group-item">Admin dapat melakukan penambahan , penghapusan, mengunduh data pegawai pada menu Data Pegawai</li>
-  <li class="list-group-item">Admin dapat melakukan penambahan , penghapusan, mengunduh data absensi pada menu Data Absensi</li>
-  <li class="list-group-item">Admin dapat keluar dari sistem dengan aman melalui menu "Logout"</li>
-</ul>
-
     </div>
 
-    <div class="card" style="width: 18rem;">
+<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+<div class="card" style="width: 18rem;">
   <div class="card-body">
     <h5 class="card-title">Data Pegawai</h5>
     <p class="card-text">Admin dapat melakukan penambahan , penghapusan, mengunduh data pegawai pada menu Data Pegawai.</p>
     <a href="/employee" class="btn btn-primary">Data Pegawai</a>
   </div>
 </div>
+    
+</div>
 
+<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
 <div class="card" style="width: 18rem;">
   <div class="card-body">
     <h5 class="card-title">Data Absen</h5>
     <p class="card-text">Admin dapat melakukan penambahan , penghapusan, mengunduh data absensi pada menu Data Absensi.</p>
-    <a href="/attendance class="btn btn-primary">Data Pegawai</a>
+    <a href="/attendance" class="btn btn-primary">Data Pegawai</a>
   </div>
 </div>
+</div>
+
+
+
+
 
 
 </div>
