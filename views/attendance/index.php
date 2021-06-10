@@ -92,7 +92,7 @@ $this->params['breadcrumbs'][] = $this->title;
             ExportMenu::FORMAT_EXCEL => false,
             ExportMenu::FORMAT_EXCEL_X => false,
             ExportMenu::FORMAT_PDF => [
-                'pdfConfig' => ['orientation' => 'L','filename' => 'File_Name -'.date('d-M-Y')] //set mpdf properties here
+                'pdfConfig' => ['orientation' => 'L','filename' => 'Keystone Marketing -'.date('d-M-Y'),] //set mpdf properties here
             
          ]
          
