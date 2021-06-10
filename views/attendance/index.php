@@ -91,7 +91,10 @@ $this->params['breadcrumbs'][] = $this->title;
             ExportMenu::FORMAT_TEXT => false,
             ExportMenu::FORMAT_HTML => false,
             ExportMenu::FORMAT_EXCEL => false,
-            ExportMenu::FORMAT_EXCEL_X => false
+            ExportMenu::FORMAT_EXCEL_X => false,
+            ExportMenu::FORMAT_CSV => ['filename' => 'Installation_data'.date('dd-MM-yy')],
+                     ],
+        'filename' => 'Installation_data'.date('dd-MM-yy')
         ],
     ]);
     ?>
