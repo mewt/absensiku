@@ -93,11 +93,9 @@ $this->params['breadcrumbs'][] = $this->title;
             ExportMenu::FORMAT_EXCEL_X => false,
             ExportMenu::FORMAT_PDF => [
                 'pdfConfig' => ['orientation' => 'L',] //set mpdf properties here
-            ],
-         ExportMenu::CSV => ['filename' => 'Installation_data'.date('dd-MM-yy')],
-                     ],
-        'filename' => 'Installation_data'.date('dd-MM-yy')
-        ]
+         ]
+         
+        ],
     ]);
     ?>
 
