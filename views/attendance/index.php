@@ -89,7 +89,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'styleOptions' => $defaultStyle,
         'exportConfig' => [
             ExportMenu::FORMAT_TEXT => false,
-            ExportMenu::FORMAT_HTML => false,
+            ExportMenu::FORMAT_HTML => true,
             ExportMenu::FORMAT_EXCEL => false,
             ExportMenu::FORMAT_EXCEL_X => false,
         ]]);
