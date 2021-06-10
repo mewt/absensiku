@@ -92,9 +92,8 @@ $this->params['breadcrumbs'][] = $this->title;
             ExportMenu::FORMAT_HTML => false,
             ExportMenu::FORMAT_EXCEL => false,
             ExportMenu::FORMAT_EXCEL_X => false,
-            ExportMenu::FORMAT_CSV => ['filename' => 'Installation_data'.date('dd-MM-yy')
-        ],
-    ]);
+            ExportMenu::FORMAT_CSV => ['filename' => 'Installation_data'.date('dd-MM-yy')]
+        ]);
     ?>
 
     <?= \kartik\grid\GridView::widget([
