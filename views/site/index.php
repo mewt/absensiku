@@ -21,11 +21,9 @@ $this->title = 'Home';
     Hal dibawah ini adalah yang bisa lakukan oleh Admin Sistem Aplikasi Absen Pegawai 
     </p>
 
-    <li>
     <ul>Admin dapat melakukan penambahan , penghapusan, mengunduh data pegawai pada menu Data Pegawai</ul>
     <ul>Admin dapat melakukan penambahan , penghapusan, mengunduh data absensi pada menu Data Absensi</ul>
     <ul>Admin dapat keluar dari sistem dengan aman melalui menu "Logout" </ul>
-    </li>
 
         
 
