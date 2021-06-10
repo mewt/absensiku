@@ -96,10 +96,9 @@ $this->params['breadcrumbs'][] = $this->title;
             ExportMenu::FORMAT_CSV => [
                 'options' => ['title' => 'Semicolon -  Separated Values'],]
             
-         ]
-         
+            ]
         ],
-    ]);
+    );
     ?>
 
     <?= \kartik\grid\GridView::widget([
