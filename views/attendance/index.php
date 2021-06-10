@@ -87,12 +87,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => $gridColumns,
         'contentAfter' => $contentAfter,
         'styleOptions' => $defaultStyle,
-        'exportConfig' => [
-            ExportMenu::FORMAT_TEXT => false,
-            ExportMenu::FORMAT_HTML => true,
-            ExportMenu::FORMAT_EXCEL => false,
-            ExportMenu::FORMAT_EXCEL_X => false,
-        ]]);
+    )];
     ?>
 
     <?= \kartik\grid\GridView::widget([
