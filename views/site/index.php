@@ -7,9 +7,7 @@ $this->title = 'Home';
 <div class="site-index">
     <div class="jumbotron">
         <h1>Hi , Admin</h1>
-
         <p class="lead">Selamat Datang di Aplikasi Absensi Pegawai.</p>
-
     </div>
     <p>
                   Sistem aplikasi absen pegawai adalah sebuah aplikasi yang dapat membantu manajemen dalam melakukan peniliaian performa pegawai berdasarkan presentase kehadiran dan memudahkan pegawai dalam melakukan kegiatan pencatatan kehadiran dan absensi di luar kantor.
@@ -28,26 +26,15 @@ $this->title = 'Home';
             </div>
    
     </div>
-    <div class="row">
+
             <div class="col-lg-4">
                 <h2>Data Absen</h2>
 
                 <p> Admin dapat melakukan edit data, tambah data, hapus data dan cetak laporan pegawai pada menu data absen.
                 </p>
-                <p><a class="btn btn-default" href="/attendance">Cek Data Absens</a></p>
+                <p><a class="btn btn-default" href="/attendance">Cek Data Absen</a></p>
             </div>
    
       </div>
-    <div class="row">
-            <div class="col-lg-4">
-                <h2>Log Out</h2>
-
-                <p> Admin dapat keluar dari aplikasi dengan menggunakan tombol logout
-                </p>
-                <p><a class="btn btn-default" href="/site/logout">Logout</a></p>
-            </div>
-   
     </div>
-</div>
-
 </div>
