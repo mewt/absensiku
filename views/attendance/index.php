@@ -82,17 +82,11 @@ $this->params['breadcrumbs'][] = $this->title;
 
     $contentAfter = ArrayHelper::merge($arr, $merge);
 
-    echo CustomGridExportAttendance::widget([
-        'dataProvider' => $dataProvider,
+    echo CustomGridExport::widget([
+        'dataProvider' => $dataProviders,
         'columns' => $gridColumns,
-        'contentAfter' => $contentAfter,
-        'styleOptions' => $defaultStyle,
-        'exportConfig' => [
-            ExportMenu::FORMAT_TEXT => false,
-            ExportMenu::FORMAT_HTML => false,
-            ExportMenu::FORMAT_EXCEL => false,
-            ExportMenu::FORMAT_EXCEL_X => false
-        ],
+        "styleOptions" => $defaultStyle,
+        'contentAfter' => $contentAfter
     ]);
     ?>
 
