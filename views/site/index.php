@@ -37,4 +37,5 @@ $this->title = 'Home';
     </div>
   
 </div>
+</div>
 
