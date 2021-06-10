@@ -12,16 +12,20 @@ $this->title = 'Home';
 
     </div>
     <div class="body-content">
-    <p>
-    Sistem aplikasi absen pegawai adalah sebuah aplikasi yang dapat membantu manajemen dalam melakukan peniliaian performa pegawai berdasarkan presentase kehadiran dan memudahkan pegawai dalam melakukan kegiatan pencatatan kehadiran dan absensi di luar kantor.
-    </p>
-    <p>
-    Sistem aplikasi absen pegawai ini sebagai jawaban terhadap Manajemen Kepegawaian untuk memantapkan administrasi Kepegawaian sebagai upaya untuk memenuhi kebutuhan informasi data pegawai yang cepat, tepat, akuntabel, dan up to date. 
-    </p>
+    <div class="row">
+            <div class="col-lg-4">
+                <h2>Heading</h2>
 
+                <p>
+                  Sistem aplikasi absen pegawai adalah sebuah aplikasi yang dapat membantu manajemen dalam melakukan peniliaian performa pegawai berdasarkan presentase kehadiran dan memudahkan pegawai dalam melakukan kegiatan pencatatan kehadiran dan absensi di luar kantor.
+                 </p>
+                <p>
+                Sistem aplikasi absen pegawai ini sebagai jawaban terhadap Manajemen Kepegawaian untuk memantapkan administrasi Kepegawaian sebagai upaya untuk memenuhi kebutuhan informasi data pegawai yang cepat, tepat, akuntabel, dan up to date. 
+                </p>
 
-    <p><a class="btn btn-lg btn-success" href="/employee">Data Pegawai</a></p>
-    <p><a class="btn btn-lg btn-success" href="/employee">Data Absensi</a></p>
+                <p><a class="btn btn-default" href="/employee">Cek Data Pegawai</a></p>
+            </div>
+   
     </div>
 
 
