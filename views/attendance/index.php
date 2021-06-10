@@ -86,7 +86,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'dataProvider' => $dataProvider,
         'columns' => $gridColumns,
         'contentAfter' => $contentAfter,
-        'styleOptions' => $defaultStyle,
+        'styleOptions' => $defaultStyle
     )];
     ?>
 
