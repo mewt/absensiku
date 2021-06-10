@@ -5,9 +5,12 @@
 $this->title = 'Home';
 ?>
 <div class="site-index">
-
     <div class="jumbotron">
-        <h2>Hi ,  Admin Selamat Datang di Aplikasi Absensi Pegawai</h2>
+        <h1>Hi , Admin</h1>
+
+        <p class="lead">Selamat Datang di Aplikasi Absensi Pegawai.</p>
+
+        <p><a class="btn btn-lg btn-success" href="/employee">Admin dapat melakukan penambahan , penghapusan, mengunduh data pegawai pada menu Data Pegawai</a></p>
     </div>
     <div class="body-content">
     <p>
@@ -20,21 +23,7 @@ $this->title = 'Home';
     <p>
     Hal dibawah ini adalah yang bisa lakukan oleh Admin Sistem Aplikasi Absen Pegawai 
     </p>
-
-<div class="container">
-  <div class="row">
-    <div class="col-sm">
-      One of three columns
     </div>
-    <div class="col-sm">
-      One of three columns
-    </div>
-    <div class="col-sm">
-      One of three columns
-    </div>
-  </div>
-</div>
-
 
     <div class="card" style="width: 18rem;">
   <div class="card-body">
@@ -46,11 +35,11 @@ $this->title = 'Home';
 
 <div class="card" style="width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Data Absen</h5>
-    <p class="card-text">Admin dapat melakukan penambahan , penghapusan, mengunduh data absensi pada menu Data Absensi.</p>
-    <a href="/attendance" class="btn btn-primary">Data Pegawai</a>
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Admin dapat melakukan penambahan , penghapusan, mengunduh data pegawai pada menu Data Pegawai.</p>
+    <a href="/employee" class="btn btn-primary">Data Pegawai</a>
   </div>
 </div>
 
-</div>
+
 </div>
