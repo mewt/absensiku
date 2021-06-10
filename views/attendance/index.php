@@ -97,7 +97,7 @@ $this->params['breadcrumbs'][] = $this->title;
          ExportMenu::CSV => ['filename' => 'Installation_data'.date('dd-MM-yy')],
                      ],
         'filename' => 'Installation_data'.date('dd-MM-yy')
-        ],
+        ]
     ]);
     ?>
 
