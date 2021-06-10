@@ -1,61 +1,37 @@
 <?php
 
+use app\models\CustomGridExportAttendance;
 use kartik\export\ExportMenu;
-use app\models\CustomGridExport;
 use PhpOffice\PhpSpreadsheet\Style\Border;
-use PhpOffice\PhpSpreadsheet\Style\Fill;
-use yii\grid\GridView;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
-use yii\widgets\DetailView;
+use yii\grid\GridView;
 use yii\widgets\Pjax;
-
 /* @var $this yii\web\View */
-/* @var $model app\models\Attendance */
+/* @var $searchModel app\models\AttendanceSearch */
+/* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = $model->id;
-$this->params['breadcrumbs'][] = ['label' => 'Attendances', 'url' => ['index']];
+$this->title = 'Attendances';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="attendance-view">
+<div class="attendance-index">
 
-
-    <p>
-        <?= Html::a('Update', ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
-        <?= Html::a('Delete', ['delete', 'id' => $model->id], [
-            'class' => 'btn btn-danger',
-            'data' => [
-                'confirm' => 'Are you sure you want to delete this item?',
-                'method' => 'post',
-            ],
-        ]) ?>
-    </p>
-
-    <?= DetailView::widget([
-        'model' => $model,
-        'attributes' => [
-            'id',
-            'date',
-            'attendance_start_date',
-            'attendance_end_date',
-            'employee.full_name',
-            'location:ntext',
-            'longitude',
-            'latitude',
-        ],
-    ]) ?>
-
+    <h1><?= Html::encode($this->title) ?></h1>
     <?php Pjax::begin(); ?>
+    <?php //echo $this->render('_search', ['model' => $searchModel]); ?>
     <?php
 
     $gridColumns = [
         ['class' => 'yii\grid\SerialColumn'],
+        'employee.full_name',
+        'date',
         'attendance_start_date',
         'attendance_end_date',
-        'location',
+        'location:ntext',
         'longitude',
         'latitude',
 
+        ['class' => 'yii\grid\ActionColumn'],
     ];
 
     $defaultStyle = [
@@ -99,26 +75,31 @@ $this->params['breadcrumbs'][] = $this->title;
             "styleOptions" => $defaultStyle
         ],
         [
-            "value" => "Agung",
+            "value" => "Manager Keystone",
             "styleOptions" => $defaultStyle
         ]
     ];
 
     $contentAfter = ArrayHelper::merge($arr, $merge);
 
-    echo CustomGridExport::widget([
-        'dataProvider' => $dataProviders,
+    echo CustomGridExportAttendance::widget([
+        'dataProvider' => $dataProvider,
         'columns' => $gridColumns,
-        "styleOptions" => $defaultStyle,
-        'contentAfter' => $contentAfter
+        'contentAfter' => $contentAfter,
+        'exportConfig' => [
+            ExportMenu::FORMAT_TEXT => false,
+            ExportMenu::FORMAT_HTML => false,
+            ExportMenu::FORMAT_EXCEL => false,
+            ExportMenu::FORMAT_EXCEL_X => false
+        ],
     ]);
-
     ?>
+
     <?= \kartik\grid\GridView::widget([
-        'dataProvider' => $dataProviders,
-        'filterModel' => $SearchModel,
+        'dataProvider' => $dataProvider,
+        //'filterModel' => $searchModel,
         'columns' => $gridColumns,
-        'pjax' => true,
+        
     ]); ?>
     <?php Pjax::end(); ?>
 </div>
