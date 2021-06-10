@@ -9,12 +9,18 @@ $this->title = 'Home';
         <h1>Hi , Admin</h1>
         <p class="lead">Selamat Datang di Aplikasi Absensi Pegawai.</p>
     </div>
-    <p>
+    <div class="row">
+            <div class="col-sm-6">
+                    <p>
                   Sistem aplikasi absen pegawai adalah sebuah aplikasi yang dapat membantu manajemen dalam melakukan peniliaian performa pegawai berdasarkan presentase kehadiran dan memudahkan pegawai dalam melakukan kegiatan pencatatan kehadiran dan absensi di luar kantor.
                  </p>
+            </div>
+            <div class="col-sm-5">
                 <p>
                 Sistem aplikasi absen pegawai ini sebagai jawaban terhadap Manajemen Kepegawaian untuk memantapkan administrasi Kepegawaian sebagai upaya untuk memenuhi kebutuhan informasi data pegawai yang cepat, tepat, akuntabel, dan up to date. 
                 </p>
+            </div>
+    </div>
     <div class="body-content">
     <div class="row">
             <div class="col-sm-6">
