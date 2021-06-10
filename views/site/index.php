@@ -44,7 +44,7 @@ $this->title = 'Home';
 
                 <p> Admin dapat keluar dari aplikasi dengan menggunakan tombol logout
                 </p>
-                <p><a class="btn btn-default" href="<?php echo Yii::app()->createAbsoluteUrl('site/logout'); ?>">Logout</a></p>
+                <p><a class="btn btn-default" href="/site/logout">Logout</a></p>
             </div>
    
     </div>
