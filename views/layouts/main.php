@@ -38,9 +38,9 @@ AppAsset::register($this);
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
-            ['label' => 'Home', 'url' => [Yii::$app->homeUrl]],
-            ['label' => 'Employee', 'url' => ['/employee']],
-            ['label' => 'Attendance', 'url' => ['/attendance']],
+            ['label' => 'Beranda', 'url' => [Yii::$app->homeUrl]],
+            ['label' => 'Data Pegawai', 'url' => ['/employee']],
+            ['label' => 'Data Absen', 'url' => ['/attendance']],
             //['label' => 'About', 'url' => ['/site/about']],
             //['label' => 'Contact', 'url' => ['/site/contact']],
             Yii::$app->user->isGuest ? (
