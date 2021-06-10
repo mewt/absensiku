@@ -8,11 +8,8 @@ $this->title = 'Home';
 
     <div class="jumbotron">
         <h2>Hi ,  Admin Selamat Datang di Aplikasi Absensi Pegawai</h2>
-    
     </div>
-
     <div class="body-content">
-
     <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a ultrices ligula, non dapibus ipsum. Vivamus et tincidunt dolor. Vestibulum commodo hendrerit dui, nec pretium enim ornare laoreet. Pellentesque bibendum eget est in feugiat. In sit amet nisl justo. Etiam cursus in dui aliquet rhoncus. Suspendisse vel urna in arcu gravida imperdiet eu a dui. Morbi tincidunt sapien eu dolor accumsan, varius blandit justo eleifend. Quisque in arcu ac nunc fringilla aliquam.
     </p>
