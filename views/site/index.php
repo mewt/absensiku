@@ -17,14 +17,14 @@ $this->title = 'Home';
                 </p>
     <div class="body-content">
     <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-2">
                 <h2>Data Pegawai</h2>
 
                 <p> Admin dapat melakukan edit data, tambah data, hapus data dan cetak laporan pegawai pada menu data pegawai.
                 </p>
                 <p><a class="btn btn-default" href="/employee">Cek Data Pegawai</a></p>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-2">
                 <h2>Data Absen</h2>
 
                 <p> Admin dapat melakukan edit data, tambah data, hapus data dan cetak laporan pegawai pada menu data absen.
