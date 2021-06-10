@@ -26,14 +26,14 @@ $this->title = 'Home';
 
                 <p> Admin dapat melakukan edit data, tambah data, hapus data dan cetak laporan pegawai pada menu data pegawai.
                 </p>
-                <p><a class="btn btn-default" href="/employee">Cek Data Pegawai</a></p>
+                <p><a class="btn btn-lg btn-success" href="/employee">Cek Data Pegawai</a></p>
             </div>
             <div class="col-sm-5">
                 <h2>Data Absen</h2>
 
                 <p> Admin dapat melakukan edit data, tambah data, hapus data dan cetak laporan pegawai pada menu data absen.
                 </p>
-                <p><a class="btn btn-default" href="/attendance">Cek Data Absen</a></p>
+                <p><a class="btn btn-lg btn-success" href="/attendance">Cek Data Absen</a></p>
             </div>
    
       </div>
