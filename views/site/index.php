@@ -10,7 +10,6 @@ $this->title = 'Home';
 
         <p class="lead">Selamat Datang di Aplikasi Absensi Pegawai.</p>
 
-        <p><a class="btn btn-lg btn-success" href="/employee">Admin dapat melakukan penambahan , penghapusan, mengunduh data pegawai pada menu Data Pegawai</a></p>
     </div>
     <div class="body-content">
     <p>
@@ -20,26 +19,12 @@ $this->title = 'Home';
     Sistem aplikasi absen pegawai ini sebagai jawaban terhadap Manajemen Kepegawaian untuk memantapkan administrasi Kepegawaian sebagai upaya untuk memenuhi kebutuhan informasi data pegawai yang cepat, tepat, akuntabel, dan up to date. 
     </p>
 
-    <p>
-    Hal dibawah ini adalah yang bisa lakukan oleh Admin Sistem Aplikasi Absen Pegawai 
-    </p>
+
+    <p><a class="btn btn-lg btn-success" href="/employee">Data Pegawai</a></p>
+    <p><a class="btn btn-lg btn-success" href="/employee">Data Absensi</a></p>
     </div>
 
-    <div class="card" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title">Data Pegawai</h5>
-    <p class="card-text">Admin dapat melakukan penambahan , penghapusan, mengunduh data pegawai pada menu Data Pegawai.</p>
-    <a href="/employee" class="btn btn-primary">Data Pegawai</a>
-  </div>
-</div>
 
-<div class="card" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Admin dapat melakukan penambahan , penghapusan, mengunduh data pegawai pada menu Data Pegawai.</p>
-    <a href="/employee" class="btn btn-primary">Data Pegawai</a>
-  </div>
-</div>
 
 
 </div>
