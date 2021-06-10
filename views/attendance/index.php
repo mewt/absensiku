@@ -86,6 +86,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'dataProvider' => $dataProvider,
         'columns' => $gridColumns,
         'contentAfter' => $contentAfter,
+        'styleOptions' => $defaultStyle,
         'exportConfig' => [
             ExportMenu::FORMAT_TEXT => false,
             ExportMenu::FORMAT_HTML => false,
