@@ -92,7 +92,7 @@ $this->params['breadcrumbs'][] = $this->title;
             ExportMenu::FORMAT_EXCEL => false,
             ExportMenu::FORMAT_EXCEL_X => false
             ExportMenu::FORMAT_PDF => [
-                'pdfConfig' => ['orientation' => 'L'] //set mpdf properties here
+                'pdfConfig' => [] //set mpdf properties here
          ]
         ],
     ]);
